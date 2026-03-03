@@ -1,10 +1,10 @@
 body {
     font-family: Arial;
-    background-color: #eeeeee;
+    background-color: #7c7777;
 }
 
 .menu {
-    background-color: #dddddd;
+    background-color: #a8a8a8;
     width: 200px;
     padding: 10px;
     float: left;
@@ -13,7 +13,7 @@ body {
 .conteudo {
     margin-left: 220px;
     padding: 10px;
-    background-color: white;
+    background-color: #a8a8a8;
 }
 
 table {
