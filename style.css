@@ -1,0 +1,22 @@
+body {
+    font-family: Arial;
+    background-color: #eeeeee;
+}
+
+.menu {
+    background-color: #dddddd;
+    width: 200px;
+    padding: 10px;
+    float: left;
+}
+
+.conteudo {
+    margin-left: 220px;
+    padding: 10px;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    margin-bottom: 20px;
+}
