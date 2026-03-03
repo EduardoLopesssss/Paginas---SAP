@@ -1,10 +1,65 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sistema Simples</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
+<h2>Sistema - Configuração de Componentes</h2>
+
+<div class="menu">
+    <h3>Menu</h3>
+    <p>Página Principal</p>
+    <p>Página Inicial</p>
+    <p>Caixa de Diálogo</p>
+</div>
+
+<div class="conteudo">
+    <h3>Tabela</h3>
+
+    <table border="1">
+        <tr>
+            <th>Elemento</th>
+            <th>Componente</th>
+            <th>ID de Configuração</th>
+        </tr>
+        <tr>
+            <td>Seção_1</td>
+            <td>Formulário Principal</td>
+            <td>/CONFIG_01</td>
+        </tr>
+        <tr>
+            <td>Interface</td>
+            <td>Componente com Abas</td>
+            <td>/CONFIG_02</td>
+        </tr>
+    </table>
+
+    <h3>Formulário</h3>
+
+    <p>
+        Nome da Janela:
+        <input type="text">
+    </p>
+
+    <p>
+        ID de Configuração:
+        <input type="text">
+    </p>
+
+    <p>
+        Status:
+        <select>
+            <option>Visível</option>
+            <option>Oculto</option>
+        </select>
+    </p>
+
+    <button>Salvar</button>
+    <button>Cancelar</button>
+
+</div>
+
 </body>
 </html>
