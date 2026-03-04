@@ -25,7 +25,7 @@ table {
     
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
-
+    
 
     border-radius: 20px;
     margin: 40px;
@@ -36,7 +36,9 @@ nav, .Painel2, .Painel3, .Painel4, .Painel5, .Painel6{
 
     display: flex;
     justify-content: space-between;
-    align-items: center;
+   
+
+
     background-color: #6a8ff5;
 
     font-family:Arial, Helvetica, sans-serif;
@@ -47,6 +49,14 @@ nav, .Painel2, .Painel3, .Painel4, .Painel5, .Painel6{
     color: rgb(4, 20, 168);
     box-sizing: border-box;
     }
+nav{
+    align-items: center;
+}
+.Painel2{
+    align-items: flex-start;
+    display: flex;
+}
+
 
     .Painel4, .Painel5, .Painel6{
         width: 100%;
@@ -86,7 +96,20 @@ nav, .Painel2, .Painel3, .Painel4, .Painel5, .Painel6{
     
 }
 .compras img{
-    width: 120px;
-    object-fit: cover;
 
+    width: 120px;
+    padding-top: 7px;
+    padding-inline-start: 40px;
+    
+}
+.compras{
+
+    background-color: white;
+    border-radius: 8px;
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+    flex-direction: column;
+    justify-content: space-between;
+    
 }
