@@ -22,7 +22,7 @@ table {
 }
 
 .Painel1{
-    background-color: #2e5ee2;
+    
     text-align: left;
     font-family: 'Times New Roman', Times, serif;
 
@@ -33,18 +33,18 @@ table {
 
 }
 nav, .Painel2, .Painel3, .Painel4, .Painel5, .Painel6{
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: #6a8ff5;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: rgb(13, 13, 129);
     border-radius: 40px;
     margin-bottom: 20px;
     width: 100%;
     padding: 20px;
-    color: white;
+    color: rgb(255, 255, 255);
     box-sizing: border-box;
     }
 
@@ -66,3 +66,22 @@ nav, .Painel2, .Painel3, .Painel4, .Painel5, .Painel6{
         flex: 1;
         
     }
+    h1,h2,h3{
+        color: #09309c;
+    }
+    button, h2{
+        background-color: #09309c;
+        margin: 10px;
+        border-radius: 100px;
+        color: white;
+        border:20px #09309c;
+    }
+    
+    #buttons{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 4px;
+    margin-top: 30px;
+    margin-right: 40px;
+}
