@@ -1,6 +1,6 @@
 body {
     font-family: Arial;
-    background-color: #7c7777;
+    background-color: #ffffff;
 }
 
 .menu {
@@ -20,24 +20,49 @@ table {
     width: 100%;
     margin-bottom: 20px;
 }
+
 .Painel1{
     background-color: #2e5ee2;
-    text-align: center;
-    
-    border-radius: 40px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+
+
+    border-radius: 20px;
     margin: 40px;
-    color: white;
+    color: rgb(255, 255, 255);
 
 }
-nav{
+nav, .Painel2, .Painel3, .Painel4, .Painel5, .Painel6{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    background-color: #2e5ee2;
+    background-color: #6a8ff5;
 
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: blue;
+    color: rgb(13, 13, 129);
     border-radius: 40px;
-    margin: 40px;
-    width: 1000px;
+    margin-bottom: 20px;
+    width: 100%;
+    padding: 20px;
+    color: white;
+    box-sizing: border-box;
+    }
+
+    .Painel4, .Painel5, .Painel6{
+        width: 100%;
+    }
+
+    .Geral{
+        display: flex;
+       width: 100%;
+       gap: 30px;
+       justify-content: space-between;
+       box-sizing: border-box;
+    }
+    .Esquerda{
+        flex: 2;
+    }
+    .Direita{
+        flex: 1;
+        
     }
