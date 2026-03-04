@@ -39,12 +39,12 @@ nav, .Painel2, .Painel3, .Painel4, .Painel5, .Painel6{
     align-items: center;
     background-color: #6a8ff5;
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:Arial, Helvetica, sans-serif;
     border-radius: 40px;
     margin-bottom: 20px;
     width: 100%;
     padding: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(4, 20, 168);
     box-sizing: border-box;
     }
 
@@ -76,12 +76,17 @@ nav, .Painel2, .Painel3, .Painel4, .Painel5, .Painel6{
         color: white;
         border:20px #09309c;
     }
-    
+
     #buttons{
 
     display: flex;
     flex-direction: column;
+    width: 300px;
     margin-left: 4px;
-    margin-top: 30px;
-    margin-right: 40px;
+    
+}
+.compras img{
+    width: 120px;
+    object-fit: cover;
+
 }
