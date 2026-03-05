@@ -35,7 +35,7 @@ table {
 nav, .Painel2, .Painel3, .Painel4, .Painel5, .Painel6{
 
     display: flex;
-    justify-content: space-between;
+    
    
 
 
@@ -43,7 +43,7 @@ nav, .Painel2, .Painel3, .Painel4, .Painel5, .Painel6{
 
     font-family:Arial, Helvetica, sans-serif;
     border-radius: 40px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     width: 100%;
     padding: 20px;
     color: rgb(4, 20, 168);
@@ -55,6 +55,22 @@ nav{
 .Painel2{
     align-items: flex-start;
     display: flex;
+    text-align: center;
+}
+.Painel3{}
+
+.Painel4{}
+
+.Painel5{ 
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+.Painel6{
+    align-items: flex-start;
+    display: flex;
+    text-align: center
 }
 
 
@@ -70,7 +86,7 @@ nav{
        box-sizing: border-box;
     }
     .Esquerda{
-        flex: 2;
+        flex: 1;
     }
     .Direita{
         flex: 1;
@@ -85,14 +101,18 @@ nav{
         border-radius: 100px;
         color: white;
         border:20px #09309c;
+        padding: 20px 10px;
+        
     }
 
     #buttons{
 
     display: flex;
     flex-direction: column;
-    width: 300px;
+    width: 400px;
     margin-left: 4px;
+    font-size: 14px;
+    
     
 }
 .compras img{
@@ -113,3 +133,33 @@ nav{
     justify-content: space-between;
     
 }
+
+#cliente{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 15px;
+}
+.clientes img{
+    
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.clientes{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+    border-radius: 15px;
+    text-align: left;
+    background-color: white;
+}
+p, h3{
+    margin: 0;
+}
+
+
+
